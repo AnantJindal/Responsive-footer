@@ -8,6 +8,8 @@
 footer {
     background-color: #151417;
     color: #D4D4D4;
+    border-bottom: 8px #F2A068 solid;
+    ;
 }
 
 div h3 {
@@ -16,10 +18,18 @@ div h3 {
     line-height: 24px;
 }
 
+#direction2{
+margin-top: 30px;
+}
+
 .container {
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 100px;
+    margin-bottom: 47px;
 }
 
 ul {
@@ -114,7 +124,6 @@ ul {
 
 
 .contact {
-    width: 40px;
     height: 40px;
     flex-grow: 1;
     flex-basis: 25%;
@@ -177,7 +186,8 @@ hr {
 
 
 .copyright {
-    padding: 50px;
+    padding: 0px 50px 0px 50px;
+    margin: 24px;
     display: flex;
 }
 
@@ -195,13 +205,9 @@ hr {
 }
 
 .li2 {
-   margin-left: 700px;
-}
-.line{
-    width: 100%;
-    background-color: 
-    #F2A068;
-    height: 8px;
+    margin-left: 700px;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media all and (max-width:900px) {
