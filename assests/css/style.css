@@ -188,14 +188,17 @@ hr {
 .copyright {
     padding: 0px 50px 0px 50px;
     margin: 24px;
+}
+
+.copyright ul{
     display: flex;
+justify-content: space-between;
 }
 
 .copyright ul li {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    display: inline;
 }
 
 .li1 {
@@ -205,7 +208,6 @@ hr {
 }
 
 .li2 {
-    margin-left: 700px;
     display: flex;
     justify-content: space-between;
 }
@@ -222,6 +224,8 @@ hr {
 @media all and (max-width:768px) {
     .container {
         flex-direction: column;
-        margin: auto;
+    }
+    .link{
+        margin-left: 0px;
     }
 }
